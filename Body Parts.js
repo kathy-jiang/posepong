@@ -37,10 +37,10 @@ function modelReady() {
 function draw() {
   image(video, 0, 0, width, height);
   
-  if (poses.length > 0) {
-    print(poses[0].pose.leftWrist.y); // #1
-    print(poses[0].pose.rightWrist.y);
-  }
+//   if (poses.length > 0) {
+//     print(poses[0].pose.leftWrist.y); 
+//     print(poses[0].pose.rightWrist.y);
+//   }
 
   // We can call both functions to draw all keypoints and the skeletons
   drawKeypoints();
